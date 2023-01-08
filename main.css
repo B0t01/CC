@@ -4,10 +4,64 @@
     border: 0;
 }
 
-body{
+.main{
 
-    background-image:linear-gradient(to top ,rgba(0,0,0,0.5), rgba(0,0,0,0.2)) ,url(background/sea01.jpg);
+    background-image:linear-gradient(to top ,rgba(0,0,0,0.5), rgba(0,0,0,0.2)) ,url(background/turtle.jpg);
     background-position:center;
     background-size: cover;
     height: 100vh;
+}
+.navbar{
+    height: 63px;
+    background-color: rgba(0,0,0,0.54);
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+
+   
+
+}
+.logo{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+img.logo{
+    width: 110%;
+}
+
+ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin: 10px;
+    margin-right: 28px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 32px;
+    font-weight: bold;
+    transition: 0.45s ease-in-out;
+}
+
+ul li a:hover{
+    color: aqua;
+    
+}
+ul li a.join:hover{
+    color: gold;
+}
+
+img.search{
+    float: right;
+    margin-right: 27px;
+    margin-top: 10px;
+    width: 40px;
 }
