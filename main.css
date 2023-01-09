@@ -81,10 +81,10 @@ img.search:hover{
 }
 div.About{
     margin-top: -3px;
-    margin-left: -5px;
-    margin-right: -5px;
-    height: 160px;
-    border: 3px;
+    margin-left: -4px;
+    margin-right: -4px;
+    height: 156px;
+    border: 4px;
     border-style: solid;
     border-color: rgb(255, 255, 255);
     transition: 0.8s;
@@ -98,7 +98,7 @@ div.About{
 
 }
 .About:hover{
-    height:172px;
+    height:166px;
     background-color: rgba(0, 0, 0, 0.445);
     border: 3px;
     border-style: solid;
@@ -138,4 +138,222 @@ div.About{
 .two:hover{
     font-size: 65px;
     color: rgb(52, 133, 255);
+}
+
+.menu2{
+    height:34px;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    
+    font-size: 28px;
+    background-color: rgba(0, 0, 0, 0.788);
+    transition: 0.7s;
+}
+div.menu2 a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    transition: 0.8s;
+    
+
+}
+
+
+div.menu2 a.menu_1:hover{
+    margin-right:-10px ;
+}
+
+div.menu2 a:hover{
+    color:aqua;
+     font-size: 31px;
+     margin-right: 4px;
+    
+}
+.news{
+    height: 410px;
+    background-color: rgba(255, 255, 255, 0.04);
+    margin-top:-50px;
+    transition: 0.8s;
+}
+
+.news:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.news1{
+    margin-top: 20px;
+    margin: 50px;
+    height: 310px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 250px;
+
+     transition: 0.7s;
+     
+    
+}
+.news1:hover{
+
+    
+    height: 320px;
+    margin-block-end: 40px;
+
+}
+.news1 img{
+    margin-left: 25px;
+    margin-top: 10px;
+    height: 180px;
+    width: 180px;
+    border: 3px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: black;
+ 
+   
+    transition: 0.7s;
+}
+.news1 img:hover{
+    height: 200px;
+    width: 200px;
+    
+    
+}
+.news2{
+    margin-left: 49vh;
+    margin-top: -49.28vh;
+    
+    height: 310px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 250px;
+
+     transition: 0.7s;
+     
+    
+}
+.news2:hover{
+
+    
+    height: 310px;
+
+}
+.news2 img{
+
+    margin-left: 25px;
+    margin-top: 10px;
+    height: 180px;
+    width: 180px;
+    border: 3px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: black;
+ 
+   
+    transition: 0.7s;
+}
+.news2 img:hover{
+    height: 200px;
+    width: 200px;
+    
+    
+}
+
+
+
+.news3{
+    margin-left: 90vh;
+    margin-top: -42.8vh;
+    
+    height: 312px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 250px;
+
+     transition: 0.7s;
+     
+    
+}
+.news3:hover{
+
+    
+    height: 320px;
+    margin-block-end: 40px;
+
+}
+
+.news3 img{
+
+    margin-left: 25px;
+    margin-top: 10px;
+    height: 180px;
+    width: 180px;
+    border: 3px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: black;
+ 
+   
+    transition: 0.7s;
+}
+.news3 img:hover{
+    height: 200px;
+    width: 200px;
+    
+    
+}
+
+p.news01{
+    margin-top: 4px;
+    text-decoration: none;
+
+    color: rgb(202, 224, 243);
+    font-size: 20px;
+    margin: 5px;
+    transition: 0.6s;
+}
+
+a{
+    text-decoration: none;
+}
+p.news01:hover{
+    color: aqua;
+    font-size: 21px;
+    margin:3px;
+    
+  
+}
+
+p.news02{
+    margin-top: 4px;
+    text-decoration: none;
+
+    color: rgb(202, 224, 243);
+    font-size: 20px;
+    margin: 5px;
+    transition: 0.6s;
+}
+
+p.news03{
+    margin-top: 4px;
+    text-decoration: none;
+
+    color: rgb(202, 224, 243);
+    font-size: 20px;
+    margin: 5px;
+    transition: 0.6s;
+}
+
+p.news02:hover{
+    color: aqua;
+    font-size: 21px;
+    margin:3px;
+    
+  
+}
+
+p.news03:hover{
+    color: aqua;
+    font-size: 21px;
+    margin:3px;
+    
+  
 }
